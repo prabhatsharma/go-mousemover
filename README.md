@@ -20,6 +20,37 @@ This tool moves your mouse by a configurable number of pixels at regular interva
 
 ## Installation
 
+### Quick Install (Recommended)
+
+Download the latest release for your platform:
+
+**Linux (x64):**
+```bash
+curl -LO https://github.com/prabhatsharma/go-mousemover/releases/latest/download/go-mousemover-linux-amd64
+chmod +x go-mousemover-linux-amd64
+sudo mv go-mousemover-linux-amd64 /usr/local/bin/go-mousemover
+```
+
+**Linux (ARM64):**
+```bash
+curl -LO https://github.com/prabhatsharma/go-mousemover/releases/latest/download/go-mousemover-linux-arm64
+chmod +x go-mousemover-linux-arm64
+sudo mv go-mousemover-linux-arm64 /usr/local/bin/go-mousemover
+```
+
+**macOS (Apple Silicon):**
+```bash
+curl -LO https://github.com/prabhatsharma/go-mousemover/releases/latest/download/go-mousemover-darwin-arm64
+chmod +x go-mousemover-darwin-arm64
+sudo mv go-mousemover-darwin-arm64 /usr/local/bin/go-mousemover
+```
+
+**Windows (PowerShell):**
+```powershell
+Invoke-WebRequest -Uri "https://github.com/prabhatsharma/go-mousemover/releases/latest/download/go-mousemover-windows-amd64.exe" -OutFile "go-mousemover.exe"
+# Move to a directory in your PATH, or run from current directory
+```
+
 ### From Source
 
 ```bash
